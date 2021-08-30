@@ -1,0 +1,59 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 6rem;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+}
+.submit-list-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 0;
+    width: 40%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    max-width: 560px;
+    min-width: 280px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .main-container{
+        margin: 0 3rem;
+    }
+    .submit-list-container{
+        margin: 3rem;
+    }
+    .submit-list-container{
+        width: 50%;
+    }
+    
+}
+  
+@media screen and (max-width: 768px) {
+    .main-container{
+        margin: 0 1.5rem;
+    }
+    .submit-list-container{
+        width: 60%;
+    }
+    .submit-list-container{
+        margin: 3rem 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 568px) {
+    .submit-list-container{
+        width: 90%;
+    }    
+}
+.MuiPagination-ul{
+    display: flex;
+    justify-content: center;
+}

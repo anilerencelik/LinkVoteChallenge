@@ -1,0 +1,10 @@
+.orderselect-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.orderselect-select{
+    border-radius: .3rem;
+    font-size: .8rem;
+}

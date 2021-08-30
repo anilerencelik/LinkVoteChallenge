@@ -1,0 +1,108 @@
+.add-link-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 6rem;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+}
+
+.add-link-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 3rem 0;
+    width: 40%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    max-width: 560px;
+    min-width: 280px;
+    color: rgba(24, 20, 20, 0.815);
+    position: relative;
+}
+
+.add-link-h1-text{
+    font-weight: 500;
+}
+
+.form-group{
+    margin: 2rem 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgba(50 50 50 / 25%);
+    border-color: var(--border-secondary);
+}
+
+@media screen and (max-width: 960px) {
+    .main-container{
+        margin: 0 3rem;
+    }
+    .submit-list-container{
+        margin: 3rem;
+    }
+    .submit-list-container{
+        width: 50%;
+    }
+    
+}
+  
+@media screen and (max-width: 768px) {
+    .main-container{
+        margin: 0 1.5rem;
+    }
+    .submit-list-container{
+        width: 60%;
+    }
+    .submit-list-container{
+        margin: 3rem 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 568px) {
+    .submit-list-container{
+        width: 90%;
+    }    
+}
+
+.succes-added-link{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    display: block;
+    text-align: center;
+    margin: 0 1rem 1rem 1rem;
+    box-shadow: 0 0 0 0.25rem rgba(229 235 234 / 25%);
+    background-color: var(--success-bg);
+    color: green;
+    padding: .4rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 500ms linear, visibility 0s linear 500ms;
+}
+.succes-added-link--show{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    display: block;
+    text-align: center;
+    margin: 0 1rem 1rem 1rem;
+    box-shadow: 0 0 0 0.25rem rgba(229 235 234 / 25%);
+    background-color: var(--success-bg);
+    color: green;
+    padding: .4rem;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 500ms linear, visibility 0s linear;
+}
+.add-link-button{
+    position: absolute;
+    right: 0;
+    border-radius: .7rem;
+}

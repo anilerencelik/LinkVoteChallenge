@@ -1,0 +1,79 @@
+.dialog-bg-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(76, 175, 80, 0.3);
+    position: absolute;
+    top: 0 
+}
+.dialog-bg-inner-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 25vh; 
+}
+.dialog-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 99;
+}
+.dialog-top-bar-container{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 255);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-right: .1rem solid whitesmoke;
+    border-left: .1rem solid whitesmoke;
+    border-top: .1rem solid whitesmoke;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+}
+.dialog-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: .1rem solid black;
+    border-right: .1rem solid black;
+    border-left: .1rem solid black;
+    border-bottom-right-radius: .6rem;
+    border-bottom-left-radius: .6rem;
+    background-color: white;
+}
+.dialog-main-subtext{
+    margin-top: 1rem;
+    color: rgba(155,155,155,255);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.dialog-main-maintext{
+    color: black;
+    font-weight: 700;
+}
+.dialog-main-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 1.5rem;
+}
+.dialog-main-button-item{
+    margin: 0 1rem;
+    border-radius: 1rem;
+}
+.dialog-top-bar-item-close{
+    cursor: pointer;
+}
